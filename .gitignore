@@ -1,0 +1,42 @@
+# ROS 2 build system
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ROS maps, bags, and launch logs
+*.db
+*.sqlite3
+*.bag
+*.log
+*.launch.py~
+
+# Gazebo and simulation cache
+*.world~
+*.sdf~
+*.model
+*.dae
+*.urdf~
+*.config~
+*.gazebo
+
+# RViz config autosaves
+*.rviz
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignore your image folder (optional if ForGit only holds README assets)
+ForGit/
