@@ -73,7 +73,7 @@ The controller ensures smooth, accurate path following:
 
 ## 🖥️ Tools and Technologies
 
-- **ROS 2 (Foxy/Humble)**
+- **ROS 2 (Humble)**
 - **Gazebo** simulator
 - **RViz 2** for visualization
 - **TurtleBot3 Burger**
