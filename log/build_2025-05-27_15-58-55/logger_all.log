@@ -1,0 +1,292 @@
+[0.174s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.174s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x738b8a6ee3e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x738b8a8be9b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x738b8a8be9b0>>)
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.380s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seif/ros2_ws'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/amcl_plotter) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amcl_plotter' with type 'ros.ament_python' and name 'amcl_plotter'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_pkg) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller_pkg' with type 'ros.ament_python' and name 'controller_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_amcl_node) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_amcl_node' with type 'ros.ament_python' and name 'my_amcl_node'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/planner_pkg) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planner_pkg' with type 'ros.ament_python' and name 'planner_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.433s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/seif/turtlebot3_ws/install
+[0.434s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/seif/ros2_ws/install
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'amcl_plotter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'amcl_plotter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seif/ros2_ws/build/amcl_plotter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seif/ros2_ws/install/amcl_plotter', 'merge_install': False, 'path': '/home/seif/ros2_ws/src/amcl_plotter', 'symlink_install': False, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'controller_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'controller_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seif/ros2_ws/build/controller_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seif/ros2_ws/install/controller_pkg', 'merge_install': False, 'path': '/home/seif/ros2_ws/src/controller_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'my_amcl_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.496s] DEBUG:colcon.colcon_core.verb:Building package 'my_amcl_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seif/ros2_ws/build/my_amcl_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seif/ros2_ws/install/my_amcl_node', 'merge_install': False, 'path': '/home/seif/ros2_ws/src/my_amcl_node', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'planner_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'planner_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seif/ros2_ws/build/planner_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seif/ros2_ws/install/planner_pkg', 'merge_install': False, 'path': '/home/seif/ros2_ws/src/planner_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.497s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.498s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seif/ros2_ws/src/amcl_plotter' with build type 'ament_python'
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('amcl_plotter', 'ament_prefix_path')
+[0.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/hook/ament_prefix_path.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/hook/ament_prefix_path.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/hook/ament_prefix_path.sh'
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seif/ros2_ws/src/controller_pkg' with build type 'ament_python'
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_pkg', 'ament_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/hook/ament_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/hook/ament_prefix_path.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/hook/ament_prefix_path.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seif/ros2_ws/src/my_amcl_node' with build type 'ament_python'
+[0.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_amcl_node', 'ament_prefix_path')
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/hook/ament_prefix_path.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/hook/ament_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/hook/ament_prefix_path.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seif/ros2_ws/src/planner_pkg' with build type 'ament_python'
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('planner_pkg', 'ament_prefix_path')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/hook/ament_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/hook/ament_prefix_path.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/hook/ament_prefix_path.sh'
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.740s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seif/ros2_ws/src/amcl_plotter'
+[0.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.965s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seif/ros2_ws/src/controller_pkg'
+[0.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.179s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seif/ros2_ws/src/my_amcl_node'
+[1.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.402s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seif/ros2_ws/src/planner_pkg'
+[1.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seif/ros2_ws/src/my_amcl_node': PYTHONPATH=/home/seif/ros2_ws/build/my_amcl_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/my_amcl_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_amcl_node build --build-base /home/seif/ros2_ws/build/my_amcl_node/build install --record /home/seif/ros2_ws/build/my_amcl_node/install.log --single-version-externally-managed install_data
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seif/ros2_ws/src/planner_pkg': PYTHONPATH=/home/seif/ros2_ws/build/planner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_pkg build --build-base /home/seif/ros2_ws/build/planner_pkg/build install --record /home/seif/ros2_ws/build/planner_pkg/install.log --single-version-externally-managed install_data
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seif/ros2_ws/src/amcl_plotter': PYTHONPATH=/home/seif/ros2_ws/build/amcl_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amcl_plotter build --build-base /home/seif/ros2_ws/build/amcl_plotter/build install --record /home/seif/ros2_ws/build/amcl_plotter/install.log --single-version-externally-managed install_data
+[1.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seif/ros2_ws/src/controller_pkg': PYTHONPATH=/home/seif/ros2_ws/build/controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_pkg build --build-base /home/seif/ros2_ws/build/controller_pkg/build install --record /home/seif/ros2_ws/build/controller_pkg/install.log --single-version-externally-managed install_data
+[2.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seif/ros2_ws/src/my_amcl_node' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/my_amcl_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/my_amcl_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_amcl_node build --build-base /home/seif/ros2_ws/build/my_amcl_node/build install --record /home/seif/ros2_ws/build/my_amcl_node/install.log --single-version-externally-managed install_data
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/my_amcl_node' for CMake module files
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/my_amcl_node' for CMake config files
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/my_amcl_node/lib'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/my_amcl_node/bin'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/my_amcl_node/lib/pkgconfig/my_amcl_node.pc'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/my_amcl_node/lib/python3.10/site-packages'
+[2.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_amcl_node', 'pythonpath')
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/hook/pythonpath.ps1'
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/hook/pythonpath.dsv'
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/hook/pythonpath.sh'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/my_amcl_node/bin'
+[2.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_amcl_node)
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/package.ps1'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/package.dsv'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/package.sh'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/package.bash'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/my_amcl_node/share/my_amcl_node/package.zsh'
+[2.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seif/ros2_ws/install/my_amcl_node/share/colcon-core/packages/my_amcl_node)
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/amcl_plotter' for CMake module files
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seif/ros2_ws/src/amcl_plotter' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/amcl_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amcl_plotter build --build-base /home/seif/ros2_ws/build/amcl_plotter/build install --record /home/seif/ros2_ws/build/amcl_plotter/install.log --single-version-externally-managed install_data
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/amcl_plotter' for CMake config files
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/amcl_plotter/lib'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/amcl_plotter/bin'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/amcl_plotter/lib/pkgconfig/amcl_plotter.pc'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages'
+[2.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('amcl_plotter', 'pythonpath')
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/hook/pythonpath.ps1'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/hook/pythonpath.dsv'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/hook/pythonpath.sh'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/amcl_plotter/bin'
+[2.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amcl_plotter)
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/package.ps1'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/package.dsv'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/package.sh'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/package.bash'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter/package.zsh'
+[2.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seif/ros2_ws/install/amcl_plotter/share/colcon-core/packages/amcl_plotter)
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/planner_pkg' for CMake module files
+[2.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seif/ros2_ws/src/planner_pkg' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/planner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_pkg build --build-base /home/seif/ros2_ws/build/planner_pkg/build install --record /home/seif/ros2_ws/build/planner_pkg/install.log --single-version-externally-managed install_data
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/planner_pkg' for CMake config files
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/planner_pkg/lib'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/planner_pkg/bin'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/planner_pkg/lib/pkgconfig/planner_pkg.pc'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages'
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('planner_pkg', 'pythonpath')
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/hook/pythonpath.ps1'
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/hook/pythonpath.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/hook/pythonpath.sh'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/planner_pkg/bin'
+[2.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planner_pkg)
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/package.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/package.sh'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/package.bash'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/planner_pkg/share/planner_pkg/package.zsh'
+[2.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seif/ros2_ws/install/planner_pkg/share/colcon-core/packages/planner_pkg)
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/controller_pkg' for CMake module files
+[2.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seif/ros2_ws/src/controller_pkg' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_pkg build --build-base /home/seif/ros2_ws/build/controller_pkg/build install --record /home/seif/ros2_ws/build/controller_pkg/install.log --single-version-externally-managed install_data
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/controller_pkg' for CMake config files
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/controller_pkg/lib'
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/controller_pkg/bin'
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/controller_pkg/lib/pkgconfig/controller_pkg.pc'
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages'
+[2.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_pkg', 'pythonpath')
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/hook/pythonpath.ps1'
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/hook/pythonpath.dsv'
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/hook/pythonpath.sh'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/seif/ros2_ws/install/controller_pkg/bin'
+[2.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_pkg)
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/package.ps1'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/package.dsv'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/package.sh'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/package.bash'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/seif/ros2_ws/install/controller_pkg/share/controller_pkg/package.zsh'
+[2.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seif/ros2_ws/install/controller_pkg/share/colcon-core/packages/controller_pkg)
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.189s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.195s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.214s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seif/ros2_ws/install/local_setup.ps1'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seif/ros2_ws/install/_local_setup_util_ps1.py'
+[2.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seif/ros2_ws/install/setup.ps1'
+[2.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seif/ros2_ws/install/local_setup.sh'
+[2.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seif/ros2_ws/install/_local_setup_util_sh.py'
+[2.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seif/ros2_ws/install/setup.sh'
+[2.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seif/ros2_ws/install/local_setup.bash'
+[2.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seif/ros2_ws/install/setup.bash'
+[2.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seif/ros2_ws/install/local_setup.zsh'
+[2.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seif/ros2_ws/install/setup.zsh'

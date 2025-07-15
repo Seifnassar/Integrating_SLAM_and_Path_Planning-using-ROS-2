@@ -1,0 +1,3 @@
+[console_scripts]
+amcl_node = my_amcl_node.amcl_node:main
+

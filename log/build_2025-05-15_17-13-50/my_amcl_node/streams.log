@@ -1,0 +1,21 @@
+[0.549s] Invoking command in '/home/seif/ros2_ws/src/my_amcl_node': PYTHONPATH=/home/seif/ros2_ws/build/my_amcl_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/my_amcl_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_amcl_node build --build-base /home/seif/ros2_ws/build/my_amcl_node/build install --record /home/seif/ros2_ws/build/my_amcl_node/install.log --single-version-externally-managed install_data
+[0.758s] running egg_info
+[0.758s] writing ../../build/my_amcl_node/my_amcl_node.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../build/my_amcl_node/my_amcl_node.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/my_amcl_node/my_amcl_node.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/my_amcl_node/my_amcl_node.egg-info/requires.txt
+[0.758s] writing top-level names to ../../build/my_amcl_node/my_amcl_node.egg-info/top_level.txt
+[0.760s] reading manifest file '../../build/my_amcl_node/my_amcl_node.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../build/my_amcl_node/my_amcl_node.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.760s] running install
+[0.761s] running install_lib
+[0.762s] running install_data
+[0.762s] running install_egg_info
+[0.763s] removing '/home/seif/ros2_ws/install/my_amcl_node/lib/python3.10/site-packages/my_amcl_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.764s] Copying ../../build/my_amcl_node/my_amcl_node.egg-info to /home/seif/ros2_ws/install/my_amcl_node/lib/python3.10/site-packages/my_amcl_node-0.0.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.780s] Installing amcl_node script to /home/seif/ros2_ws/install/my_amcl_node/lib/my_amcl_node
+[0.780s] writing list of installed files to '/home/seif/ros2_ws/build/my_amcl_node/install.log'
+[0.795s] Invoked command in '/home/seif/ros2_ws/src/my_amcl_node' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/my_amcl_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/my_amcl_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_amcl_node build --build-base /home/seif/ros2_ws/build/my_amcl_node/build install --record /home/seif/ros2_ws/build/my_amcl_node/install.log --single-version-externally-managed install_data

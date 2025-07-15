@@ -1,0 +1,3 @@
+[console_scripts]
+plot_pose = amcl_plotter.plot_pose:main
+

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/amcl_plotter/amcl_plotter.egg-info
+writing ../../build/amcl_plotter/amcl_plotter.egg-info/PKG-INFO
+writing dependency_links to ../../build/amcl_plotter/amcl_plotter.egg-info/dependency_links.txt
+writing entry points to ../../build/amcl_plotter/amcl_plotter.egg-info/entry_points.txt
+writing requirements to ../../build/amcl_plotter/amcl_plotter.egg-info/requires.txt
+writing top-level names to ../../build/amcl_plotter/amcl_plotter.egg-info/top_level.txt
+writing manifest file '../../build/amcl_plotter/amcl_plotter.egg-info/SOURCES.txt'
+reading manifest file '../../build/amcl_plotter/amcl_plotter.egg-info/SOURCES.txt'
+writing manifest file '../../build/amcl_plotter/amcl_plotter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/seif/ros2_ws/build/amcl_plotter/build
+creating /home/seif/ros2_ws/build/amcl_plotter/build/lib
+creating /home/seif/ros2_ws/build/amcl_plotter/build/lib/amcl_plotter
+copying amcl_plotter/plot_pose.py -> /home/seif/ros2_ws/build/amcl_plotter/build/lib/amcl_plotter
+copying amcl_plotter/__init__.py -> /home/seif/ros2_ws/build/amcl_plotter/build/lib/amcl_plotter
+running install
+running install_lib
+creating /home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter
+copying /home/seif/ros2_ws/build/amcl_plotter/build/lib/amcl_plotter/plot_pose.py -> /home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter
+copying /home/seif/ros2_ws/build/amcl_plotter/build/lib/amcl_plotter/__init__.py -> /home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter
+byte-compiling /home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter/plot_pose.py to plot_pose.cpython-310.pyc
+byte-compiling /home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/seif/ros2_ws/install/amcl_plotter/share/ament_index
+creating /home/seif/ros2_ws/install/amcl_plotter/share/ament_index/resource_index
+creating /home/seif/ros2_ws/install/amcl_plotter/share/ament_index/resource_index/packages
+copying resource/amcl_plotter -> /home/seif/ros2_ws/install/amcl_plotter/share/ament_index/resource_index/packages
+copying package.xml -> /home/seif/ros2_ws/install/amcl_plotter/share/amcl_plotter
+running install_egg_info
+Copying ../../build/amcl_plotter/amcl_plotter.egg-info to /home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing plot_pose script to /home/seif/ros2_ws/install/amcl_plotter/lib/amcl_plotter
+writing list of installed files to '/home/seif/ros2_ws/build/amcl_plotter/install.log'

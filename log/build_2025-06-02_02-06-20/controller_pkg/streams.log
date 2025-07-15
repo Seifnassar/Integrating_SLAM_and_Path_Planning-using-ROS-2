@@ -1,0 +1,24 @@
+[1.263s] Invoking command in '/home/seif/ros2_ws/src/controller_pkg': PYTHONPATH=/home/seif/ros2_ws/build/controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_pkg build --build-base /home/seif/ros2_ws/build/controller_pkg/build install --record /home/seif/ros2_ws/build/controller_pkg/install.log --single-version-externally-managed install_data
+[1.490s] running egg_info
+[1.491s] writing ../../build/controller_pkg/controller_pkg.egg-info/PKG-INFO
+[1.491s] writing dependency_links to ../../build/controller_pkg/controller_pkg.egg-info/dependency_links.txt
+[1.491s] writing entry points to ../../build/controller_pkg/controller_pkg.egg-info/entry_points.txt
+[1.491s] writing requirements to ../../build/controller_pkg/controller_pkg.egg-info/requires.txt
+[1.491s] writing top-level names to ../../build/controller_pkg/controller_pkg.egg-info/top_level.txt
+[1.493s] reading manifest file '../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'
+[1.494s] writing manifest file '../../build/controller_pkg/controller_pkg.egg-info/SOURCES.txt'
+[1.494s] running build
+[1.494s] running build_py
+[1.494s] copying controller_pkg/controller_node.py -> /home/seif/ros2_ws/build/controller_pkg/build/lib/controller_pkg
+[1.494s] running install
+[1.494s] running install_lib
+[1.495s] copying /home/seif/ros2_ws/build/controller_pkg/build/lib/controller_pkg/controller_node.py -> /home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg
+[1.495s] byte-compiling /home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg/controller_node.py to controller_node.cpython-310.pyc
+[1.497s] running install_data
+[1.497s] running install_egg_info
+[1.498s] removing '/home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.498s] Copying ../../build/controller_pkg/controller_pkg.egg-info to /home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages/controller_pkg-0.0.0-py3.10.egg-info
+[1.499s] running install_scripts
+[1.516s] Installing controller_node script to /home/seif/ros2_ws/install/controller_pkg/lib/controller_pkg
+[1.516s] writing list of installed files to '/home/seif/ros2_ws/build/controller_pkg/install.log'
+[1.564s] Invoked command in '/home/seif/ros2_ws/src/controller_pkg' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller_pkg build --build-base /home/seif/ros2_ws/build/controller_pkg/build install --record /home/seif/ros2_ws/build/controller_pkg/install.log --single-version-externally-managed install_data

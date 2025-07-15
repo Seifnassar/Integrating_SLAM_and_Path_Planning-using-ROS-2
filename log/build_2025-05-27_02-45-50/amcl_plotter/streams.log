@@ -1,0 +1,21 @@
+[1.403s] Invoking command in '/home/seif/ros2_ws/src/amcl_plotter': PYTHONPATH=/home/seif/ros2_ws/build/amcl_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amcl_plotter build --build-base /home/seif/ros2_ws/build/amcl_plotter/build install --record /home/seif/ros2_ws/build/amcl_plotter/install.log --single-version-externally-managed install_data
+[1.632s] running egg_info
+[1.632s] writing ../../build/amcl_plotter/amcl_plotter.egg-info/PKG-INFO
+[1.632s] writing dependency_links to ../../build/amcl_plotter/amcl_plotter.egg-info/dependency_links.txt
+[1.632s] writing entry points to ../../build/amcl_plotter/amcl_plotter.egg-info/entry_points.txt
+[1.633s] writing requirements to ../../build/amcl_plotter/amcl_plotter.egg-info/requires.txt
+[1.633s] writing top-level names to ../../build/amcl_plotter/amcl_plotter.egg-info/top_level.txt
+[1.634s] reading manifest file '../../build/amcl_plotter/amcl_plotter.egg-info/SOURCES.txt'
+[1.634s] writing manifest file '../../build/amcl_plotter/amcl_plotter.egg-info/SOURCES.txt'
+[1.634s] running build
+[1.635s] running build_py
+[1.635s] running install
+[1.635s] running install_lib
+[1.637s] running install_data
+[1.637s] running install_egg_info
+[1.638s] removing '/home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter-0.0.0-py3.10.egg-info' (and everything under it)
+[1.638s] Copying ../../build/amcl_plotter/amcl_plotter.egg-info to /home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages/amcl_plotter-0.0.0-py3.10.egg-info
+[1.639s] running install_scripts
+[1.657s] Installing plot_pose script to /home/seif/ros2_ws/install/amcl_plotter/lib/amcl_plotter
+[1.658s] writing list of installed files to '/home/seif/ros2_ws/build/amcl_plotter/install.log'
+[1.688s] Invoked command in '/home/seif/ros2_ws/src/amcl_plotter' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/amcl_plotter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/amcl_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amcl_plotter build --build-base /home/seif/ros2_ws/build/amcl_plotter/build install --record /home/seif/ros2_ws/build/amcl_plotter/install.log --single-version-externally-managed install_data

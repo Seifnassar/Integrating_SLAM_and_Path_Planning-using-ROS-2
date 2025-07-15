@@ -1,0 +1,25 @@
+[1.841s] Invoking command in '/home/seif/ros2_ws/src/planner_pkg': PYTHONPATH=/home/seif/ros2_ws/build/planner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_pkg build --build-base /home/seif/ros2_ws/build/planner_pkg/build install --record /home/seif/ros2_ws/build/planner_pkg/install.log --single-version-externally-managed install_data
+[2.171s] running egg_info
+[2.172s] writing ../../build/planner_pkg/planner_pkg.egg-info/PKG-INFO
+[2.172s] writing dependency_links to ../../build/planner_pkg/planner_pkg.egg-info/dependency_links.txt
+[2.172s] writing entry points to ../../build/planner_pkg/planner_pkg.egg-info/entry_points.txt
+[2.172s] writing requirements to ../../build/planner_pkg/planner_pkg.egg-info/requires.txt
+[2.173s] writing top-level names to ../../build/planner_pkg/planner_pkg.egg-info/top_level.txt
+[2.175s] reading manifest file '../../build/planner_pkg/planner_pkg.egg-info/SOURCES.txt'
+[2.176s] writing manifest file '../../build/planner_pkg/planner_pkg.egg-info/SOURCES.txt'
+[2.176s] running build
+[2.176s] running build_py
+[2.177s] copying planner_pkg/astar_node.py -> /home/seif/ros2_ws/build/planner_pkg/build/lib/planner_pkg
+[2.177s] running install
+[2.177s] running install_lib
+[2.180s] copying /home/seif/ros2_ws/build/planner_pkg/build/lib/planner_pkg/astar_node.py -> /home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages/planner_pkg
+[2.181s] byte-compiling /home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages/planner_pkg/astar_node.py to astar_node.cpython-310.pyc
+[2.182s] running install_data
+[2.183s] running install_egg_info
+[2.186s] removing '/home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages/planner_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.186s] Copying ../../build/planner_pkg/planner_pkg.egg-info to /home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages/planner_pkg-0.0.0-py3.10.egg-info
+[2.187s] running install_scripts
+[2.218s] Installing astar_node script to /home/seif/ros2_ws/install/planner_pkg/lib/planner_pkg
+[2.218s] Installing dwa_node script to /home/seif/ros2_ws/install/planner_pkg/lib/planner_pkg
+[2.218s] writing list of installed files to '/home/seif/ros2_ws/build/planner_pkg/install.log'
+[2.256s] Invoked command in '/home/seif/ros2_ws/src/planner_pkg' returned '0': PYTHONPATH=/home/seif/ros2_ws/build/planner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seif/ros2_ws/install/planner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/planner_pkg build --build-base /home/seif/ros2_ws/build/planner_pkg/build install --record /home/seif/ros2_ws/build/planner_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+astar_node = planner_pkg.astar_node:main
+dwa_node = planner_pkg.dwa_node:main
+
