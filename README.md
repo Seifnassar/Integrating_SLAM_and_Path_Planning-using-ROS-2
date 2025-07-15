@@ -60,8 +60,7 @@ AMCL uses a particle filter to estimate the robot's position based on laser scan
 
 The global planner generates safe, optimal paths:
 
-![A* Path Planning](ForGIT/astar sc 2.png)
-
+![A* Path Planning](ForGIT/astar%20sc%202.png)
 ---
 
 ## 🛞 Path Tracking with State Feedback Controller
