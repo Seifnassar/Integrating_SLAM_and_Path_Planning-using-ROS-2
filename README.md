@@ -28,7 +28,7 @@ The system is designed to:
 
 The following diagram shows the ROS 2 node and topic structure used for the navigation stack:
 
-![System Architecture](ForGit/RQTgraph.png)
+![System Architecture](ForGIT/RQTgraph.png)
 
 ---
 
